@@ -1304,6 +1304,8 @@ start:
 			goto f_err;
 			}
 
+		s->s3->flags &= ~SSL3_FLAGS_CCS_OK;
+
 		rr->length=0;
 
 		if (s->msg_callback)
