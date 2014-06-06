@@ -1,4 +1,1 @@
-platform_external_openssl
-=========================
-
-OpenSSL
+OpenSSL For Android
